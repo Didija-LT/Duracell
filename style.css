@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Euphoria+Script&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+.carousel{
+    width: 100%;
+    height: 90%;
+    margin: 10px;
+    
+
+}
+.liste-inline {
+    list-style: none;
+    padding-left: 0px;  
+  } 
+  
+  .liste-inline li {
+    display: inline;
+    padding: 10px;
+  } 
+  
+  .liste-inline i{
+    font-size: 70px;
+    color: rgba(220,230,210);
+  } 
+  
+  .liste-inline i{
+    font-size: 50px;
+    color: rgba(230,230,230);
+  } 
+  
+  .liste-inline i:hover{
+    color: blue;
+  } 
+.contact{
+    border-top: solid black;
+   display: flex;
+   flex-direction:row ;
+   justify-content: space-between;
+   width: 100%;
+   
+ }
+ .address ul {
+   margin: 2em;
+ }
+ .address ul li {
+   display: block;
+   justify-content: space-evenly;
+   
+ }
+ .address ul li img{
+  vertical-align: middle;
+  padding: 0em 1em;
+  margin-bottom: 1em;
+  width: 4pc;
+  }
+ .address ul li span{
+   font-family: "Gill Sans", sans-serif;
+   align-items: center;   
+   margin-bottom: 4em;
+   text-align: center;
+ }
+ .location {
+   padding: 30px;
+   border-left: solid black;
+ }
+ .location iframe {
+   padding: 5px;
+  width: 100%;
+ } 
+ .inscri{
+    margin-left: 10em ;
+    margin-top: 2em ;
+    margin-bottom: 5em;
+  
+ }
+
+.boutique{
+ 
+  padding: 20px;
+  display: inline;
+ 
+}
+
+.dropdown:hover > #cart-dropdown{
+  display: block;
+}
+
